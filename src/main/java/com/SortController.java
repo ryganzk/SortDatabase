@@ -35,13 +35,24 @@ public class SortController {
                 case ("quick"):
                     QuickSort.QuickSortExample((Integer) input.get(1), (Boolean) input.get(2));
                     break;
+                case ("counting"):
+                    CountingSort.CountingSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
+                case ("radix"):
+                    RadixSort.RadixSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
+                case ("bucket"):
+                    BucketSort.BucketSortExample((Integer) input.get(1), (Boolean) input.get(2), 10);
+                    break;
                 case ("help"):
                     System.out.print("CURRENT LIST OF SORTS:\n" +
                                      "BUBBLE\n" +
                                      "SELECTION\n" +
                                      "INSERTION\n" +
                                      "MERGE\n" +
-                                     "QUICK\n");
+                                     "QUICK\n" +
+                                     "COUNTING\n" +
+                                     "RADIX\n");
                     break;
                 case ("quit"):
                     return;

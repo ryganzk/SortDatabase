@@ -25,7 +25,7 @@ public class QuickSort {
         System.out.println("---------------------------------");
     }
 
-    static List<Integer> QuickHelper(List<Integer> numberList, boolean drill) {
+    public static List<Integer> QuickHelper(List<Integer> numberList, boolean drill) {
         if (numberList.size() <= 1)
             return numberList;
         else {
