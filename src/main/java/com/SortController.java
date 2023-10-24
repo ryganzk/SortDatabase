@@ -44,6 +44,15 @@ public class SortController {
                 case ("bucket"):
                     BucketSort.BucketSortExample((Integer) input.get(1), (Boolean) input.get(2), 10);
                     break;
+                case ("heap"):
+                    HeapSort.HeapSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
+                case ("shell"):
+                    ShellSort.ShellSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
+                case ("bogo"):
+                    BogoSort.BogoSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
                 case ("help"):
                     System.out.print("CURRENT LIST OF SORTS:\n" +
                                      "BUBBLE\n" +
@@ -52,7 +61,10 @@ public class SortController {
                                      "MERGE\n" +
                                      "QUICK\n" +
                                      "COUNTING\n" +
-                                     "RADIX\n");
+                                     "RADIX\n" +
+                                     "BUCKET\n" +
+                                     "HEAP\n" +
+                                     "SHELL\n");
                     break;
                 case ("quit"):
                     return;
