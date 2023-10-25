@@ -9,7 +9,7 @@ public class InsertionSort {
         List<Integer> randomList = RandomList.CreateRandomList(length);
         int drillCnt = 1;
         System.out.println("---------------------------------");
-        System.out.println("MERGE SORT EXAMPLE");
+        System.out.println("INSERTION SORT EXAMPLE");
         System.out.println("---------------------------------");
         System.out.println("UNSORTED LIST: " + randomList);
 
