@@ -29,6 +29,15 @@ public class SortController {
                 case ("insertion"):
                     InsertionSort.InsertionSortExample((Integer) input.get(1), (Boolean) input.get(2));
                     break;
+                case ("shaker"):
+                    ShakerSort.ShakerSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
+                case ("double-selection"):
+                    DoubleSelectionSort.DoubleSelectionSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
+                case ("binary-insertion"):
+                    BinaryInsertionSort.BinaryInsertionSortExample((Integer) input.get(1), (Boolean) input.get(2));
+                    break;
                 case ("merge"):
                     MergeSort.MergeSortExample((Integer) input.get(1), (Boolean) input.get(2));
                     break;
@@ -58,13 +67,17 @@ public class SortController {
                                      "BUBBLE\n" +
                                      "SELECTION\n" +
                                      "INSERTION\n" +
+                                     "SHAKER\n" +
+                                     "DOUBLE-SELECTION\n" +
+                                     "BINARY-INSERTION\n" +
                                      "MERGE\n" +
                                      "QUICK\n" +
                                      "COUNTING\n" +
                                      "RADIX\n" +
                                      "BUCKET\n" +
                                      "HEAP\n" +
-                                     "SHELL\n");
+                                     "SHELL\n" +
+                                     "BOGO\n");
                     break;
                 case ("quit"):
                     return;
