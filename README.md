@@ -40,11 +40,11 @@ SortDatabase takes the following commands
 - ```<amount>``` - Specifies the amount of elements to sort
 - ```<drill>``` - If "drill" is specified, allows the user to get an in-depth look at the list after every sorting step
 
-```help``` - Shows a list of sorts you can perform
+```help``` - Shows a list of sorts you can perform<br>
 ```quit``` - Exits the database
 
 # Setup
-1.) Make sure you have Java 17+ installed on your system (if not, grab it from here: https://www.java.com/en/download/manual.jsp)
-2.) Download the newest release of javasorts.jar
-3.) Open a command line interface within the folder containing javasorts.jar (no graphical interface is being worked on at the time)
-4.) Run ```java -jar javasorts.jar``` and start viewing some sorts!
+1.) Make sure you have Java 17+ installed on your system (if not, grab it from here: https://www.java.com/en/download/manual.jsp)<br>
+2.) Download the newest release of javasorts.jar<br>
+3.) Open a command line interface within the folder containing javasorts.jar (no graphical interface is being worked on at the time)<br>
+4.) Run ```java -jar javasorts.jar``` and start viewing some sorts!<br>
